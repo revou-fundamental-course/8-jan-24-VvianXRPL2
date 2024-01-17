@@ -27,12 +27,20 @@ header p {
     color: #756AB6;
 }
 
+
+.resultBox {
+    background-color: #756AB6;
+    color: #E0AED0;
+    padding: 10px;
+    border-radius: 15px;
+}
+
 .inputSection {
     display: flex;
     flex-direction: column;
 }
 
-#squareSide {
+.designInp {
     outline: none;
     margin-top: 10px;
     border-radius: 10px;
@@ -40,11 +48,13 @@ header p {
     padding: 10px;
 }
 
-#squareSide:focus {
+.designInp:focus {
     border: solid #AC87C5;
 }
 
+
 .btnInp {
+    
     margin-top: 10px;
     border: none;
     border-radius: 8px;
