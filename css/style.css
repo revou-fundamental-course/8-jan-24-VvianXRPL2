@@ -2,6 +2,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #FFE5E5;
 }
+.pict{
+    
+    
+    margin-left: 300px;
+}
 
 header {
     text-align: center;
@@ -43,7 +48,7 @@ header p {
     border: solid #AC87C5;
 }
 
-button {
+.btnInp {
     margin-top: 10px;
     border: none;
     border-radius: 8px;
@@ -52,11 +57,11 @@ button {
     background-color: #E0AED0;
 }
 
-button:hover {
+.btnInp:hover {
     background-color: #AC87C5;
 }
 
-button:active {
+.btnInp:active {
     background-color: #756AB6;
     transform: translateY(2px);
 }
