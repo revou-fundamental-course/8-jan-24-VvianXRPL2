@@ -39,6 +39,15 @@ function hitKelPerpan () {
     // dapatkan nomor dari input\\
     let panjang = inputElement1.value; 
     let lebar = inputElement2.value;
-    console.log( (panjang + lebar) * 2);
-    hasilElement.innerHTML = (panjang + lebar) * 2;
+    console.log( (2 * panjang) + (2 * lebar) );
+    hasilElement.innerHTML = (2 * panjang) + (2 * lebar);
+}
+
+function fun () {
+    document.getElementById("myForm").reset();
+    document.getElementById("myFormResult").reset();
+}
+
+function funP () {
+    document.getElementById("myForm2").reset()
 }

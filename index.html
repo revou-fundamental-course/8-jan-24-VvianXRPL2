@@ -19,20 +19,22 @@
         margin: auto;">
     </div>
 
-    <div class="inputSection">
+    <div>
         <label for="squareSide" id="lblSquareSide">Hitung Luas & Keliling Persegi</label>
-        <input type="number" class="designInp" id="squareSide" placeholder="Masukkan Panjang Sisi">
     </div>
 
+    <form id="myForm" action="#">
+        <input type="number" class="designInp" id="squareSide" placeholder="Masukkan Panjang Sisi">
+    </form>
 
-        <div class="resultBox" >
-            <div id="hasil">hasilnya..</div>
-        </div>
-    
+    <form class="resultBox" id="myFormResult" action="#">
+        <div id="hasil">hasilnya..</div>
+    </form>
+
     <div class="buttons">
         <button class="btnInp" id="sisiButton" onclick="hitLuas()">Hitung Luas</button>
-        <button class="btnInp" id="Keliling" onclick="hitKel()">Hitung Keliling</button>
-        <button class="btnInp" id="resetButton" onclick=""  >Reset</button>
+        <button class="btnInp" id="Keliling" onclick="hitKel()">Hitung Keliling</button> 
+        <input class="btnInp" type="button" value="Reset" onclick="fun()">
     </div>
 
 
@@ -41,11 +43,14 @@
         margin: auto;">
     </div>
 
-    <div class="inputSection">
+    <div>
         <label for="squareSide" id="lblSquareSide">Hitung Luas & Keliling Persegi Panjang</label>
+    </div>
+    
+    <form id="myForm2" action="#">
         <input type="number" class="designInp" id="inpPanjang" placeholder="Masukkan Panjang">
         <input style="margin-top: -1px;" type="number"  class="designInp" id="inpLebar" placeholder="Masukkan Lebar">
-    </div>
+    </form>
 
     <div class="resultBox" >
         <div id="hasil2">hasilnya..</div>
@@ -54,7 +59,7 @@
     <div class="buttons">
         <button class="btnInp" id="luasButton" onclick="hitLuasPerpan ()">Hitung Luas</button>
         <button class="btnInp" id="kelButton" onclick="hitKelPerpan ()">Hitung Keliling</button>
-        <button class="btnInp" id="resetButton" onclick="">Reset</button>
+        <input class="btnInp" type="button" value="Reset" onclick="funP()">
     </div>
 
     <script src="js/main.js"></script>
